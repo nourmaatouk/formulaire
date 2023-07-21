@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-c=Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon appli</title>
+</head>
+<body>
+    <h1> Exemples de formulaire</h1>
+    <form action=""methode="">
+        <p> 
+            <label for="nom">Nom:</label>
+            <input type="text" name="nom" id="nom">
+        </p>
+        <p> 
+            <label for="prenom">Prenom:</label>
+            <input type="text" name="prenom" id="prenom">
+        </p>
+        <p>
+            <label for="mdp"> Mot de passe :</label>
+            <input type="password" name="mdp" id="mdp">
+        </p>
+        <p>
+         <label for="email"> Email:</label>
+         <input type="email" name="email" id="email">
+        </p>  
+        <p> 
+            vous etes etudiant ?
+            <input type="radio" name="choix" value="1" id="choix1">
+            <label for="choix1"> oui </label>
+            <input type="radio" name="choix" value="2" id="choix2">
+            <label for="choix2"> non</label>
+        </p> 
+        <p> 
+            <label for="moyen_transport"> Moyen de transport :</label>
+            <select name="transport" id="moyen-transport">
+                <option value="voiture">Voiture </option>
+                <option value="bus"> Bus</option>
+                <option value="velo">Vélo</option>
+                <option value="autre">Autre</option>
+            </select>
+        </p>
+        <p> 
+            <label for="commentaire"> ecrire un commentaire :</label>
+            <textarea name="commentaire" id="commentaire" rows="6" cols="50"></textarea>
+        </p>
+        <p> 
+           <input type="submit" value="Envoyer le formulaire"> 
+        </p>
+    </form>
+    
+</body>
+</html>
